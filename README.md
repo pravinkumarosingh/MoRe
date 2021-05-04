@@ -14,8 +14,9 @@ Recommendation systems are the systems that are designed to recommend things to 
 
 #### Cosine Similarity 
 Cosine similarity is a metric used to measure how similar two items are. Mathematically it calculates the cosine of the angle between two vectors projected in a multidimensional space. Cosine similarity is advantageous when two similar documents are far apart by Euclidean distance(size of documents) chances are they may be oriented closed together. The smaller the angle, higher the cosine similarity.
-
-![cosine-form1](http://www.sciweavers.org/tex2img.php?eq=1%20-%20cosine%20similarity%20%3D%20cosine%20distance&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+```
+1 - cosine-similarity = cosine-distance
+```
 
 ![cosine-sim](https://github.com/garooda/Movie-Recommendation-Sysetm/blob/main/images/cosine%20sim%20%201.PNG)
 
