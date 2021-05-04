@@ -78,3 +78,5 @@ cv = CountVectorizer()
 count_matrix = cv.fit_transform(df['combined_features'])
 print("Count Matrix: ",count_matrix.toarray())
 ```
+
+##### cosine similarity 
