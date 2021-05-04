@@ -50,9 +50,31 @@ features = ['keywords', 'cast', 'genres', 'director']
 ```
 
 ##### removing null values
-Data preprocessing is needed before proceeding further. All the null values must be removed.
+Data preprocessing is needed before proceeding further. Hence all the null values must be removed.
 
 ```python3
 for feature in features:
     df[feature] = df[feature].fillna('')
+```
+
+##### combined features 
+combining all the features in the single feature and difference column to the existing dataset.
+
+```python3
+def combined_features(row):
+    return row['keywords']+" "+row['cast']+" "+row['genres']+" "+row['director']
+
+df['combined_features'] = df.apply(combined_features,axis = 1)
+```
+
+##### extracting features
+
+now we'll extract the features by using sklearn's __feature_extraction__ module it helps us to extract feature into format supported by machine learning algorithms. 
+
+__CountVetcorizer()'s__  _*fit_transform*_ we'll help to count the number of the text present in the document.
+
+```python3
+cv = CountVectorizer()
+count_matrix = cv.fit_transform(df['combined_features'])
+print("Count Matrix: ",count_matrix.toarray())
 ```
