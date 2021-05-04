@@ -24,7 +24,7 @@ Cosine similarity is a metric used to measure how similar two items are. Mathema
 ![cos-form](https://bit.ly/33baNhZ)
 
 #### Code
-Code is available at [nbviewer](https://nbviewer.jupyter.org/github/garooda/Movie-Recommendation-Sysetm/blob/main/movie_recommendation_system.ipynb)
+Jupyter python notebook is available at  [nbviewer](https://nbviewer.jupyter.org/github/garooda/Movie-Recommendation-Sysetm/blob/main/movie_recommendation_system.ipynb)
 
 Importing the important libraries
 
