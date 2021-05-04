@@ -19,4 +19,3 @@ Cosine similarity is a metric used to measure how similar two items are. Mathema
 
 ![cosine-form1](http://www.sciweavers.org/tex2img.php?eq=1%20-%20cosine%20similarity%20%3D%20cosine%20distance&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-![cosine-form2](http://www.sciweavers.org/tex2img.php?eq=cosinesimilarity%28x1%2Cx2%29%20%3D%20cos%20%20%5Ctheta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
