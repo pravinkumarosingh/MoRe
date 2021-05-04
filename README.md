@@ -41,3 +41,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 ```python3
 df = pd.read_csv("movie_dataset.csv")
 ```
+
+##### features list 
+we'll choose the features that are most relevant to us and store it in the list name __features__ .
+
+```python3
+features = ['keywords', 'cast', 'genres', 'director']
+```
