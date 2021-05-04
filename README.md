@@ -48,3 +48,11 @@ we'll choose the features that are most relevant to us and store it in the list 
 ```python3
 features = ['keywords', 'cast', 'genres', 'director']
 ```
+
+##### removing null values
+Data preprocessing is needed before proceeding further. All the null values must be removed.
+
+```python3
+for feature in features:
+    df[feature] = df[feature].fillna('')
+```
