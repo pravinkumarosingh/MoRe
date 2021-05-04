@@ -19,5 +19,5 @@ Cosine similarity is a metric used to measure how similar two items are. Mathema
 
 ![cosine-sim](https://github.com/garooda/Movie-Recommendation-Sysetm/blob/main/images/cosine%20sim%20%201.PNG)
 
-![cos-form](http://www.sciweavers.org/tex2img.php?eq=cosinesimilarity%28x1%2Cx2%29%20%3D%20cos%20%20%5Ctheta%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![cos-form](https://bit.ly/33baNhZ)
 
