@@ -24,5 +24,14 @@ Cosine similarity is a metric used to measure how similar two items are. Mathema
 ![cos-form](https://bit.ly/33baNhZ)
 
 #### Code
-Code is available at [nbviewer](https://nbviewer.jupyter.org/github/garooda/Movie-Recommendation-Sysetm/blob/main/movie_recommendation_system.ipynb) with explanation.
+Code is available at [nbviewer](https://nbviewer.jupyter.org/github/garooda/Movie-Recommendation-Sysetm/blob/main/movie_recommendation_system.ipynb)
+
+Importing the important libraries
+
+```python3
+import pandas as pd
+import numpy as np
+from sklearn.feature_extraction import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+```
 
