@@ -17,4 +17,4 @@ Cosine similarity is a metric used to measure how similar two items are. Mathema
 
 ![cosine-sim](https://github.com/garooda/Movie-Recommendation-Sysetm/blob/main/images/cosine%20sim%20%201.PNG)
 
-![cosine-formula](<img src="http://www.sciweavers.org/tex2img.php?eq=1%20-%20cosine%20similarity%20%3D%20cosine%20distance&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 - cosine similarity = cosine distance" width="325" height="19" />)
+![cosine-formula][img]http://www.sciweavers.org/tex2img.php?eq=1%20-%20cosine%20similarity%20%3D%20cosine%20distance&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img]
