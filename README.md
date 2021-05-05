@@ -2,7 +2,7 @@
 
 ### Movie Recommendation System Using Cosine Similarity
 
-![Logo](https://cdn.pixabay.com/photo/2017/06/02/22/01/dog-2367414_1280.png = 250*250)
+![Logo](https://cdn.pixabay.com/photo/2017/06/02/22/01/dog-2367414_1280.png)
 Photo By - [mohamed_hassan](https://pixabay.com/users/mohamed_hassan-5229782/)
 
 ## Table of Content
