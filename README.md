@@ -36,20 +36,20 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 ```
-##### loading the dataset and converting it into dataframe using pandas
+##### Loading the dataset and converting it into dataframe using pandas
 
 ```python3
 df = pd.read_csv("movie_dataset.csv")
 ```
 
-##### features list 
+##### Features list 
 we'll choose the features that are most relevant to us and store it in the list name __features__ .
 
 ```python3
 features = ['keywords', 'cast', 'genres', 'director']
 ```
 
-##### removing null values
+##### Removing null values
 Data preprocessing is needed before proceeding further. Hence all the null values must be removed.
 
 ```python3
@@ -57,7 +57,7 @@ for feature in features:
     df[feature] = df[feature].fillna('')
 ```
 
-##### combined features 
+##### Combined features 
 combining all the features in the single feature and difference column to the existing dataset.
 
 ```python3
@@ -67,7 +67,7 @@ def combined_features(row):
 df['combined_features'] = df.apply(combined_features,axis = 1)
 ```
 
-##### extracting features
+##### Extracting features
 
 now we'll extract the features by using sklearn's __feature_extraction__ module it helps us to extract feature into format supported by machine learning algorithms. 
 
@@ -79,4 +79,4 @@ count_matrix = cv.fit_transform(df['combined_features'])
 print("Count Matrix: ",count_matrix.toarray())
 ```
 
-##### cosine similarity 
+##### Cosine similarity 
