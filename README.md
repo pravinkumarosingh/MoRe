@@ -80,3 +80,48 @@ print("Count Matrix: ",count_matrix.toarray())
 ```
 
 ##### Cosine similarity 
+sklearn has the module cosine_similarity which we'll use to compute the similarity between two vectors.
+
+```python3
+cosine_sim = cosine_similarity(count_matrix)
+```
+__cosine_sim__ is a numpy array with calculated cosine similarity between tw movies
+
+##### Content user like as we are building content based filtering. 
+Now we'll take the input movies in the __movie_user_like__ variable. Since we're building content based recommendation system we need to know the the content user like in order to predict the similar.
+
+```python3
+movie_user_like = "Dead Poets Society"
+
+def get_index_from(title):
+    return df[df.title == title]["index"].values[0]
+
+movie_index = get_index_from(movie_user_like)
+```
+##### Generating similar movies matrix
+
+```python3
+similar_movies = list(enumerate(cosine_sim[movie_index]))
+```
+
+##### Sorting the similar movies in descending order
+
+```python3
+sorted_similar_movies = sorted(similar_movies, key = lambda x:x[1], reverse = True)
+```
+
+##### Printing the similar movies
+
+```python3
+def get_title_from_index(index):
+    return df[df.index == index]["title"].values[0]
+
+i=0
+for movies in sorted_similar_movies:
+    print(get_title_from_index(movies[0]))
+    i = i+1;
+    if i>15:
+        break
+```
+
+![Final Output](https://github.com/garooda/Movie-Recommendation-Sysetm/blob/main/images/output.PNG)
