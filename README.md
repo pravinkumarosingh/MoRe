@@ -1,4 +1,4 @@
-# Movie-Recommendation-Sysetm
+# MoRe
 
 ### Movie Recommendation System Using Cosine Similarity
 
