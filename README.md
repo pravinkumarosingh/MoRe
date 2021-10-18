@@ -5,7 +5,7 @@
 Based on the past user behavior, MoRe recommends the movies to users based on their similarity. It suggests movies to users with a recommendation rate that is greater than the preference rate of movie for the same user. So in core words it will give recommendations which are never liked by other, but a user might like that.
 
 <p align="center">
-    <img src="https://cdn.pixabay.com/photo/2017/06/02/22/01/dog-2367414_1280.png" width="200" height="200">
+    <img src="https://cdn.pixabay.com/photo/2017/06/02/22/01/dog-2367414_1280.png" width="300" height="300">
  </p>
 Photo By - [mohamed_hassan](https://pixabay.com/users/mohamed_hassan-5229782/)
 
