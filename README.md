@@ -129,3 +129,5 @@ for movies in sorted_similar_movies:
 ```
 
 ![Final Output](https://github.com/garooda/Movie-Recommendation-Sysetm/blob/main/images/output.PNG)
+
+<a href="https://www.buymeacoffee.com/pravinkumar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
